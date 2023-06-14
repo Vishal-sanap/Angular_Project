@@ -1,0 +1,39 @@
+<!-- ☝️☝️☝️☝️☝️☝️☝️☝️☝️ 👉 ONE WAY DATA BINDING 👈 ☝️☝️☝️☝️☝️☝️☝️☝️☝️ -->
+
+<!-- This Is A Example Of 1) STRING INTERPOLATION 👇👇👇👇 -->
+
+<h1>My Name Is {{name}} & </h1>
+<h1>I ❤️ {{love}}</h1>
+
+<!-- This Is A Example Of 2) PROPERTY BINDING 👇👇👇👇 -->
+
+<input type="text" [value]="address"><br><br>
+
+<!-- This Is A Example Of 3) EVENT BINDING 👇👇👇👇 -->
+
+<button (click)="age()">Click & See Your Age In Console</button><br><br>
+
+<!-- ✌️✌️✌️✌️✌️✌️✌️✌️✌️ 👉 TWO WAY DATA BINDING 👈 ✌️✌️✌️✌️✌️✌️✌️✌️✌️ -->
+
+<input type="text" placeholder="Enter Your City Name" [(ngModel)] ="city"><br><br>
+<h1 class="h1">{{city}}</h1>
+
+<!-- This Is A Example Of LAZY LOADING With LINKS (Anchor Tags) 👇👇👇👇 -->
+
+<a routerLink="/admin/login">click for Admin Login</a><br><br>
+
+<a routerLink="/admin/signup">click for Admin Signup</a><br><br>
+
+<!-- This Is A Example Of LAZY LOADING WITH THE HELP OF FUNCTIONS IN BUTTONS (MAM PREFFERED THIS WAY TO PRACTISE CAUS THIS WAY IS USED IN MANY TYPES OF SOFTWARES IN INDUSTRY)👇👇👇👇 -->
+
+<button (click) = "login()">Log In</button><br><br>
+<button (click) = "signup()">Sign Up</button><br><br>
+
+<!-- This Is A Example Of STRUCTURAL DIRECTIVES 1) *ngIf="" 👇👇👇👇 -->
+
+<h4 *ngIf="show">This Is Head 1</h4>
+
+<!-- This Is A Example Of TOOGLE EFFECT USING *ngIf="" 👇👇👇👇 -->
+
+<div class="div" *ngIf="toggle">Toggle Effect</div>
+<button (click)="toggleeffect()">Toggle</button>
