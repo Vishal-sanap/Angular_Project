@@ -1,0 +1,30 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th{
+    border-top: 2px solid black !important ;
+    border-bottom: 2px solid black  !important
+   
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color: rgb(107, 228, 196);
+  }
+
+  .btnBack{
+    text-align: center;
+  }
+  
+  .btnBack:hover{
+   
+    width: 100%;
+    background-color: rgb(98, 251, 42);
+    height: 34px;
+}
+
+  
+  
