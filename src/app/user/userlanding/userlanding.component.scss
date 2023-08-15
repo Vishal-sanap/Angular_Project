@@ -19,9 +19,11 @@
     margin: 10px;
 }
 .main{
+    background-image: url('~src/assets/img/hotelback3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 520px;
-    border: 1px solid #cb3709;
-    background-color: rosybrown;
+    border: 2px solid black;
     margin: auto;
     padding: 15px;
     margin-top: 50px;
@@ -31,7 +33,7 @@
 }
 .btn{
     background-color: #f20e31;
-    color: white
+    color: white;
 }
 
 .btn:hover{

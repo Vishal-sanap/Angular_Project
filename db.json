@@ -9,6 +9,16 @@
       "userCheck": true,
       "userConfirmpass": "Vishal@123",
       "id": 1
+    },
+    {
+      "userName": "tanaya",
+      "userEmail": "tanayabavkar123@gmail.com",
+      "userMob": "9898657363",
+      "gender": "Female",
+      "userpass": "Tanaya@123",
+      "userCheck": true,
+      "userConfirmpass": "Tanaya@123",
+      "id": 2
     }
   ],
   "owners": [
@@ -21,6 +31,16 @@
       "userCheck": true,
       "userConfirmpass": "Vishal@123",
       "id": 1
+    },
+    {
+      "userName": "tanaya",
+      "userEmail": "tanayabavkar123@gmail.com",
+      "userMob": "8976543738",
+      "gender": "Female",
+      "userpass": "Tanaya@123",
+      "userCheck": true,
+      "userConfirmpass": "Tanaya@123",
+      "id": 2
     }
   ],
   "users": [
@@ -43,6 +63,16 @@
       "userCheck": true,
       "userConfirmpass": "Vishal@123",
       "id": 2
+    },
+    {
+      "userName": "tanaya",
+      "userEmail": "tanayabavkar123@gmail.com",
+      "userMob": "9878789765",
+      "gender": "Female",
+      "userpass": "Tanaya@123",
+      "userCheck": true,
+      "userConfirmpass": "Tanaya@123",
+      "id": 3
     }
   ],
   "hotelDetails": [
@@ -110,6 +140,19 @@
       "userPass": "Pooja@123",
       "owenrCheck": true,
       "id": 5
+    },
+    {
+      "ownerName": "tanaya",
+      "hotelName": "the heaven",
+      "hotelAddress": "nashik",
+      "hotelMobile": "8976373839",
+      "hotelMenu": [
+        "Non-Veg Varieties"
+      ],
+      "roomAvailable": "15",
+      "userPass": "Tanaya@123",
+      "owenrCheck": true,
+      "id": 6
     }
   ],
   "hotelBooking": [
