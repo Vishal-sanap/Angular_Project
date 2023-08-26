@@ -1,0 +1,31 @@
+<div class="main1">
+  <nav class="navbar">
+    <span style="font-size: xx-large; margin-left: 470px;"><b><i></i></b></span>
+</nav>
+    <button class="btn1" mat-button color="primary" routerLink="/home" >Back</button>
+    <button class="btn1" mat-raised-button  color="accent" routerLink="/user/usersignin"  (click)="showSignForm()">Sign in</button>
+    <button class="btn1" mat-raised-button  color="warn" routerLink="/user/usersignup">Sign up</button>
+    <!-- <button mat-raised-button class="btn1"  routerLink="/user/usersuccess" color="primary">Hotel List</button> -->
+    
+   <div class="main" *ngIf="hideSignForm">
+        <h2 style="text-align: center;">Login Here</h2>
+        <form #userName="ngForm" autocomplete="off">
+            <mat-form-field class="input">
+                <mat-label>Enter Name</mat-label>
+                <input matInput  placeholder="Enter your name" name="userName" #userName="ngModel" ngModel required>
+                <mat-hint>Enter your name</mat-hint>
+              </mat-form-field><br><br>
+    
+              <mat-form-field class="input">
+                <mat-label>Enter Password</mat-label>
+                <input matInput type="password"  placeholder="Enter your password" name="password" #password="ngModel" ngModel required>
+                <mat-hint>Enter your valid password</mat-hint>
+              </mat-form-field><br><br>
+    
+              <button class="btn" [disabled]="!userName.valid" (click)="submit(userName.value)">Sign In</button><br><br>
+              <div>Not a member?<a routerLink="/user/usersignup">Sign up now</a></div>
+        </form>
+    </div>
+    
+</div>
+<div class="background"></div>

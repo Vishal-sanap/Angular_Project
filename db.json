@@ -1,0 +1,167 @@
+{
+  "admins": [
+    {
+      "userName": "vishal",
+      "userEmail": "sanapvishal123@gmail.com",
+      "userMob": "8978748494",
+      "gender": "Male",
+      "userpass": "Vishal@123",
+      "userCheck": true,
+      "userConfirmpass": "Vishal@123",
+      "id": 1
+    },
+    {
+      "userName": "tanaya",
+      "userEmail": "tanayabavkar123@gmail.com",
+      "userMob": "9898657363",
+      "gender": "Female",
+      "userpass": "Tanaya@123",
+      "userCheck": true,
+      "userConfirmpass": "Tanaya@123",
+      "id": 2
+    }
+  ],
+  "owners": [
+    {
+      "userName": "vishal",
+      "userEmail": "sanapvishal123@gmail.com",
+      "userMob": "8977656456",
+      "gender": "Male",
+      "userpass": "Vishal@123",
+      "userCheck": true,
+      "userConfirmpass": "Vishal@123",
+      "id": 1
+    },
+    {
+      "userName": "tanaya",
+      "userEmail": "tanayabavkar123@gmail.com",
+      "userMob": "8976543738",
+      "gender": "Female",
+      "userpass": "Tanaya@123",
+      "userCheck": true,
+      "userConfirmpass": "Tanaya@123",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "userName": "vishal",
+      "userEmail": "sanapvishal123@gmail.com",
+      "userMob": "8978789098",
+      "gender": "Male",
+      "userpass": "Vishal@123",
+      "userCheck": true,
+      "userConfirmpass": "Vishal@123",
+      "id": 1
+    },
+    {
+      "userName": "vishal",
+      "userEmail": "sanapvishal123@gmail.com",
+      "userMob": "9873839303",
+      "gender": "Male",
+      "userpass": "Vishal@123",
+      "userCheck": true,
+      "userConfirmpass": "Vishal@123",
+      "id": 2
+    },
+    {
+      "userName": "tanaya",
+      "userEmail": "tanayabavkar123@gmail.com",
+      "userMob": "9878789765",
+      "gender": "Female",
+      "userpass": "Tanaya@123",
+      "userCheck": true,
+      "userConfirmpass": "Tanaya@123",
+      "id": 3
+    }
+  ],
+  "hotelDetails": [
+    {
+      "ownerName": "vishal",
+      "hotelName": "oberoi hotel",
+      "hotelAddress": "pune",
+      "hotelMobile": "8976789404",
+      "hotelMenu": [
+        "Special Thali "
+      ],
+      "roomAvailable": "10",
+      "userPass": "Vishal@123",
+      "owenrCheck": true,
+      "id": 1
+    },
+    {
+      "ownerName": "tejas",
+      "hotelName": "taj hotel",
+      "hotelAddress": "delhi",
+      "hotelMobile": "8976789404",
+      "hotelMenu": [
+        "Special Thali "
+      ],
+      "roomAvailable": "40",
+      "userPass": "Tejas@123",
+      "owenrCheck": true,
+      "id": 2
+    },
+    {
+      "ownerName": "om",
+      "hotelName": "royal palace hotel",
+      "hotelAddress": "mumbai",
+      "hotelMobile": "9876789404",
+      "hotelMenu": [
+        "Special Thali "
+      ],
+      "roomAvailable": "34",
+      "userPass": "Om@123",
+      "owenrCheck": true,
+      "id": 3
+    },
+    {
+      "ownerName": "ravi",
+      "hotelName": "royal hotel",
+      "hotelAddress": "kashmir",
+      "hotelMobile": "9867789404",
+      "hotelMenu": [
+        "Special Thali "
+      ],
+      "roomAvailable": "30",
+      "userPass": "Ravi@123",
+      "owenrCheck": true,
+      "id": 4
+    },
+    {
+      "ownerName": "Pooja",
+      "hotelName": "sunset hotel",
+      "hotelAddress": "nagaland",
+      "hotelMobile": "8136789404",
+      "hotelMenu": [
+        "Special Thali "
+      ],
+      "roomAvailable": "12",
+      "userPass": "Pooja@123",
+      "owenrCheck": true,
+      "id": 5
+    },
+    {
+      "ownerName": "tanaya",
+      "hotelName": "the heaven",
+      "hotelAddress": "nashik",
+      "hotelMobile": "8976373839",
+      "hotelMenu": [
+        "Non-Veg Varieties"
+      ],
+      "roomAvailable": "15",
+      "userPass": "Tanaya@123",
+      "owenrCheck": true,
+      "id": 6
+    }
+  ],
+  "hotelBooking": [
+    {
+      "userName": "vishal",
+      "userAddress": "nashik",
+      "userMobile": "8938738393",
+      "userBookAm": "1000",
+      "id": 1
+    }
+  ]
+}
